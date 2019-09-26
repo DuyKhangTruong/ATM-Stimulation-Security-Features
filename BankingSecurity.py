@@ -13,8 +13,8 @@ import certifi
 
 class Banking_Security:
     def __init__(self):
-        self.Id = '123456789'
-        self.password = '14092015'
+        self.Id = ''
+        self.password = ''
         self.balance = 25000
         self.counting = 0
         self.check = False
@@ -109,9 +109,9 @@ class Banking_Security:
     def SendingEmail(self):
         port = 587  # For starttls
         smtp_server = "smtp.gmail.com"
-        sender_email = "khangtest23@gmail.com"
-        receiver_email = "khanganddoublelift@gmail.com@gmail.com"
-        password = "testing23"
+        sender_email = ""
+        receiver_email = ""
+        password = ""
 
         context = ssl.create_default_context()
         message = """\
